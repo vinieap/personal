@@ -24,11 +24,37 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <link rel='stylesheet' href='style.css'>
     <title>React App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <h1 class='ml11'>
+	<span class='text-wrapper'>
+		<span class='line line1'></span>
+		<span class='letters'> Vinit Patel </span>
+	</span>
+    </h1>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+   
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+	
+	<div class='calendar'>
+		Loading...
+	</div>
+
+	<script> 
+		GitHubCalendar(".calendar", "vinieap", { responsive: true });
+	</script>
+    </div>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
