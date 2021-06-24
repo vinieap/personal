@@ -23,7 +23,7 @@ email: vinieap@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My personal website, home to my resume, projects,
   information about me, and random blog posts.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/_site" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  vinieap
 
